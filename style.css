@@ -113,3 +113,35 @@ li {
     border-bottom-left-radius: .25rem;
     border-bottom-right-radius: .25rem;
 }
+@media  (min-width:350px)and (max-width:420px)
+{
+    .container{
+        background: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+    .booklet {
+        width: 66%;
+        height: 85%;
+        background-color: white;
+        margin: 23px 66px;
+        opacity: 0.8;
+    }
+    .typebox {
+        width: 29%;
+        height: 4%;
+        margin: -56px -227px;
+        position: fixed;
+        background: yellow;
+        color: black;
+        text-align: center;
+    }
+    .droplist
+    {
+        margin: -53px -95px;
+        position: absolute;
+        width: 22%;
+        height: 4%;
+    }
+    
+}
