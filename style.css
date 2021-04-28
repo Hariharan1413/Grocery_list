@@ -1,0 +1,115 @@
+*  {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif,"Raboto";
+}
+.container {
+    background: url(../images/2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    margin: -3px;
+    height: 100%;
+    width: 100%;
+
+}
+.close-icon {
+	border:1px solid transparent;
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: middle;
+  outline: 0;
+  cursor: pointer;
+}
+.close-icon:after {
+	content: "X";
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	background-color: #FA9595;
+	z-index:1;
+	right: 35px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 2px;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+	box-shadow: 0 0 2px #E50F0F;
+	cursor: pointer;
+}
+.typebox:not(:valid) ~ .close-icon {
+	display: none;
+}
+.booklet{
+     width: 66%;
+     height: 85%;
+     background-color: white;
+    
+     margin: 61px 240px;
+     opacity: 0.8;
+}
+.booklet h1{
+    text-align: center;
+    color: orangered;
+    padding: 20px;
+}
+.mainpt {
+    margin:9px 250px;
+}
+.logo1 {
+    width: 6%;
+    margin: 15px -90px;
+    position:relative;
+    
+}
+.typebox {
+    width: 24%;
+    height: 4%;
+    margin: -45px -57px;
+    position: fixed;
+    background: yellow;
+    color: black;
+    text-align: center;
+}
+.add {
+    margin: -63px 280px;
+    padding: 5px;
+    position: absolute;
+    background: green;
+    color: white;
+}
+.remove  {
+    margin: -63px 370px;
+    padding: 5px;
+    position: absolute;
+    background: red;
+    color: white;
+
+}
+ul {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+li {
+    position: relative;
+    display: block;
+    padding: 10px 69px;
+    width: 70%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    background-color: blanchedalmond;
+    border: 1px solid rgb(163, 163, 163);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
