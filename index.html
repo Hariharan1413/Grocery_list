@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Groceries</title>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="booklet">
+            <h1>Groceries List</h1>
+            <div class="mainpt">
+                <div class="logo"><img  class="logo1" src="../images/notes.png" alt="logo"></div>
+                <form>
+                    <input type="text" id="favourite" class="typebox">
+                    <select id="products" onchange="graspItem()">
+                        <option >Rice</option>
+                        <option >Wheat</option>
+                        <option >Olive oil</option>
+                        <option >Pasta</option>
+                        <option >Bread</option>
+                        <option >Sugar</option>
+                        <option >Salt</option>
+                        <option >Onion</option>
+                        <option >Garlic</option>
+                        <option >soyabean</option>
+                        <option >groundnut</option>
+                        <option >Honey</option>
+                        <option >Orange</option>
+                        <option >Apple</option>
+                        <option >Cheese</option>
+                        <option >Milk</option>
+              
+                    </select>
+                </form>
+                <button onclick="addItem()" type="button" class="add">Add Items</button>
+                <button onclick="removeItem()" type="button" class="remove">Remove Items</button>
+            </div>
+            <ul id="buyproducts"></ul>
+        </div>
+    </div>
+    <script src="mains.js"></script>
+</body>
+</html>
