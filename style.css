@@ -130,7 +130,7 @@ li {
     .typebox {
         width: 29%;
         height: 4%;
-        margin: -56px -227px;
+        margin: -28px -221px;
         position: fixed;
         background: yellow;
         color: black;
@@ -138,10 +138,57 @@ li {
     }
     .droplist
     {
-        margin: -53px -95px;
+        margin: -27px -92px;
         position: absolute;
         width: 22%;
-        height: 4%;
+        height: 4.5%;
+    }
+    .logo1 {
+        width: 6%;
+        margin: -25px -249px;
+        position:absolute;
+        
+    }
+    .add {
+        margin: 10px -219px;
+        position: absolute;
+        background: green;
+        color: white;
+        padding-left: 21px;
+        padding-right: 21px;
+        padding-bottom: 6px;
+        border-radius: 7px;
+    }
+    .remove  {
+        margin: 10px -103px;
+        padding: 5px;
+        position: absolute;
+        background: red;
+        color: white;
+        border-radius: 7px;
+    
+    }
+    ul {
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        margin-top: 66px;
+    }
+    li {
+        position: relative;
+        display: block;
+        padding: 10px 69px;
+        width: 24%;
+        margin-left: 34px;
+        margin-bottom: 11px;
+        background-color: blanchedalmond;
+        border: 1px solid rgb(163, 163, 163);
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        border-bottom-left-radius: .25rem;
+        border-bottom-right-radius: .25rem;
     }
     
 }
