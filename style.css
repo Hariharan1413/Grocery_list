@@ -117,11 +117,11 @@ li {
 {
     .container{
         background: cover;
-        height: 100%;
+        height: 150%;
         overflow: hidden;
     }
     .booklet {
-        width: 66%;
+        width: 70%;
         height: 85%;
         background-color: white;
         margin: 23px 66px;
@@ -129,9 +129,9 @@ li {
     }
     .typebox {
         width: 29%;
-        height: 4%;
+        height: 3%;
         margin: -28px -221px;
-        position: fixed;
+        position: absolute;
         background: yellow;
         color: black;
         text-align: center;
@@ -141,7 +141,7 @@ li {
         margin: -27px -92px;
         position: absolute;
         width: 22%;
-        height: 4.5%;
+        height: 28px;
     }
     .logo1 {
         width: 6%;
